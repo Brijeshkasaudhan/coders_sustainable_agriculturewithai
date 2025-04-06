@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  sustainable-farming-ai:
+    build: .
+    container_name: sustainable-farming-ai
+    ports:
+      - "8001:8000"
+      - "8501:8501"
+    restart: always
